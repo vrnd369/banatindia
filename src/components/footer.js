@@ -33,13 +33,31 @@ const Footer = () => (
         fontSize: 22,
       }}
     >
-      <a href="#" style={{ color: "#07b39b" }} aria-label="Facebook">
+      <a 
+        href="https://facebook.com/banat" 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        style={{ color: "#07b39b" }} 
+        aria-label="Visit our Facebook page"
+      >
         <FaFacebook />
       </a>
-      <a href="#" style={{ color: "#07b39b" }} aria-label="Instagram">
+      <a 
+        href="https://instagram.com/banat" 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        style={{ color: "#07b39b" }} 
+        aria-label="Visit our Instagram page"
+      >
         <FaInstagram />
       </a>
-      <a href="#" style={{ color: "#07b39b" }} aria-label="Twitter">
+      <a 
+        href="https://twitter.com/banat" 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        style={{ color: "#07b39b" }} 
+        aria-label="Visit our Twitter page"
+      >
         <FaTwitter />
       </a>
     </div>
